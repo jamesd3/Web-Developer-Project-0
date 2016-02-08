@@ -1,0 +1,161 @@
+/* HEADER SECTION */
+header {
+  height: 25vw;
+  max-height: 120px;
+  width: 100%;
+  background-color: beige;
+}
+
+
+.header-content {
+  height: 100%;
+}
+
+
+/* MAIN SECTIONS */
+h1 {
+  float: left;
+  width: 80%;
+  color: #07102c;
+  font-weight: normal;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  vertical-align: center;
+  font-weight: bold;
+}
+
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+
+.udacity-logo {
+  max-height: 90%;
+  width: 20%;
+  float: left;
+}
+
+
+.content {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+
+.my-name {
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+.my-location {
+  color: gainsboro;
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  margin: -20px 0px 0px 0px;
+}
+
+
+.hero {
+  padding: 1em;
+  max-width: 100%;
+  background-color: darkslategray;
+  color: white;
+}
+
+
+.my-picture {
+  display: block;
+  margin: 0 auto 10px;
+  max-height: 200px;
+  max-width: 200px;
+  border: 2px solid white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+
+.additional-content {
+  background-color: beige;
+  background-size: 100%;
+}
+
+
+.about-me {
+  padding: 1em;
+}
+
+
+.iama {
+  max-width: 100%;
+  color: #07102c;
+  letter-spacing: 0.05em;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+.my-info {
+  max-width: 100%;
+  font-size: 18px;
+  margin: 0 auto 20px;
+  color: #262626;
+}
+
+
+.my-info:last-of-type {
+  margin: 0;
+}
+
+/* FOOTER SECTION */
+footer {
+  height: 80px;
+  color: slategray;
+  vertical-align: center;
+  text-align: center;
+  background-color: darkslategray;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 380px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
+
+@media screen and (max-width: 464px) and (min-width: 381px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+
+
+@media screen and (min-width: 465px) {
+  h1 {
+    font-size: 36px;
+  }
+}
+
+
+@media screen and (min-width: 550px) {
+  .header-content {
+    padding-top: 15px;
+  }
+}
+
+
+@media screen and (max-width: 549px) {
+  .header-content {
+    padding-top: 5px;
+  }
+}
+
